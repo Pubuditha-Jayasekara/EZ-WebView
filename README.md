@@ -7,10 +7,10 @@ pod 'EZ-WebView'
 
 <b>Available versions are : </b>
 
-pod 'EZ-WebView','~> 0.1.4'<br/>
-pod 'EZ-WebView','~> 0.1.5'<br/>
-pod 'EZ-WebView','~> 0.1.6'<br/>
-pod 'EZ-WebView','~> 0.1.7'
+<h3>pod 'EZ-WebView','~> 0.1.4'<h3/>
+<h3>pod 'EZ-WebView','~> 0.1.5'<h3/>
+<h3>pod 'EZ-WebView','~> 0.1.6'<h3/>
+<h3>pod 'EZ-WebView','~> 0.1.7'<h3/>
 
 <b>Screenshots : </b>
 
