@@ -3,14 +3,14 @@ This is a WKWebView based web view framework which supports for swift UI.
 
 <b>Installation :</b>
 
-<h6>pod 'EZ-WebView'<h6/>
+<h6>pod 'EZ-WebView'</h6>
 
 <b>Available versions are : </b>
 
-<h6>pod 'EZ-WebView','~> 0.1.4'<h6/>
-<h6>pod 'EZ-WebView','~> 0.1.5'<h6/>
-<h6>pod 'EZ-WebView','~> 0.1.6'<h6/>
-<h6>pod 'EZ-WebView','~> 0.1.7'<h6/>
+<h6>pod 'EZ-WebView','~> 0.1.4'<h6>
+<h6>pod 'EZ-WebView','~> 0.1.5'</h6>
+<h6>pod 'EZ-WebView','~> 0.1.6'</h6>
+<h6>pod 'EZ-WebView','~> 0.1.7'</h6>
 
 <b>Screenshots : </b>
 
