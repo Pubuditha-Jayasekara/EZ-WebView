@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   }
   spec.homepage     = 'https://github.com/Pubuditha-Jayasekara/EZ-WebView'
   spec.source       = { 
-    :git => 'https://github.com/Pubuditha-Jayasekara/EZ-WebView.git', 
+    :git => 'git@github.com:Pubuditha-Jayasekara/EZ-WebView.git',
     :branch => 'master',
     :tag => spec.version.to_s 
   }
