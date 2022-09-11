@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'EZ-WebView'
-  spec.version      = '0.1.0'
+  spec.version      = '0.1.1'
   spec.authors      = { 
     'Pubuditha Jayasekara' => 'jpubuditha@gmail.com',
   }
