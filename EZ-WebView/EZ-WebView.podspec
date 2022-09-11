@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'EZ-WebView'
-  spec.version      = '0.1.6'
+  spec.version      = '0.1.7'
   spec.authors      = { 
     'Pubuditha Jayasekara' => 'jpubuditha@gmail.com',
   }
@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.source       = { 
     :git => 'git@github.com:Pubuditha-Jayasekara/EZ-WebView.git',
     :branch => 'master',
-    :tag => spec.version 
+    :tag => spec.version.to_s 
   }
   spec.summary      = 'This is a WKWebView based web view framework which supports for swift UI.'
   spec.source_files = '**/*.swift', '*.swift'
