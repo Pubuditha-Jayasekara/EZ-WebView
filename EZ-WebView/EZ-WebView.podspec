@@ -17,5 +17,5 @@ Pod::Spec.new do |spec|
   spec.summary      = 'This is a WKWebView based web view framework which supports for swift UI.'
   spec.source_files = '**/*.swift', '*.swift'
   spec.swift_versions = '5.0'
-  spec.ios.deployment_target = '14.0'
+  spec.ios.deployment_target = '9.0'
 end
