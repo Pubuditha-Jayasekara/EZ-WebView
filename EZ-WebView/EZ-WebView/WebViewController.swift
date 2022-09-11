@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 import WebKit
 
-class WebViewController: UIViewController, WKUIDelegate, WKNavigationDelegate {
+public class WebViewController: UIViewController, WKUIDelegate, WKNavigationDelegate {
     
     lazy var wkWebView: WKWebView = WKWebView()
     
@@ -29,13 +29,13 @@ class WebViewController: UIViewController, WKUIDelegate, WKNavigationDelegate {
     }
     
     // To handle the reloading part when app goes to background and come again
-    override func viewWillAppear(_ animated: Bool) {
+    public override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
         NotificationCenter.default.addObserver(self, selector:#selector(WebViewController().reloadTheView), name: UIApplication.willEnterForegroundNotification, object: UIApplication.shared)
     }
     
     //To reset notifications when app goes background
-    override func viewWillDisappear(_ animated: Bool) {
+    public override func viewWillDisappear(_ animated: Bool) {
         NotificationCenter.default.removeObserver(self)
     }
     
@@ -50,7 +50,7 @@ class WebViewController: UIViewController, WKUIDelegate, WKNavigationDelegate {
 extension WebViewController {
     
     //alert without feedback val
-    func webView(_ webView: WKWebView,
+    public func webView(_ webView: WKWebView,
                  runJavaScriptAlertPanelWithMessage message: String,
                  initiatedByFrame frame: WKFrameInfo,
                  completionHandler: @escaping () -> Void) {
@@ -67,7 +67,7 @@ extension WebViewController {
     }
     
     //alert with feedback bool val
-    func webView(_ webView: WKWebView,
+    public func webView(_ webView: WKWebView,
                  runJavaScriptAlertPanelWithMessage message: String,
                  initiatedByFrame frame: WKFrameInfo,
                  completionHandler: @escaping (Bool) -> Void) {
@@ -84,7 +84,7 @@ extension WebViewController {
     }
     
     //Confirm WithOut Feedback val
-    func webView(_ webView: WKWebView,
+    public func webView(_ webView: WKWebView,
                  runJavaScriptConfirmPanelWithMessage message: String,
                  initiatedByFrame frame: WKFrameInfo,
                  completionHandler: @escaping () -> Void) {
@@ -104,7 +104,7 @@ extension WebViewController {
     }
     
     //Confirm With Feedback bool val
-    func webView(_ webView: WKWebView,
+    public func webView(_ webView: WKWebView,
                  runJavaScriptConfirmPanelWithMessage message: String,
                  initiatedByFrame frame: WKFrameInfo,
                  completionHandler: @escaping (Bool) -> Void) {
@@ -124,7 +124,7 @@ extension WebViewController {
     }
     
     //text Input With Prompt
-    func webView(_ webView: WKWebView,
+    public func webView(_ webView: WKWebView,
                  runJavaScriptTextInputPanelWithPrompt prompt: String,
                  defaultText: String?,
                  initiatedByFrame frame: WKFrameInfo,
