@@ -5,7 +5,7 @@ Installation
 
 pod 'EZ-WebView'
 
-Available versions are -> 
+<Bold>Available versions are -> </bold>
 
 pod 'EZ-WebView','~> 0.1.4'
 pod 'EZ-WebView','~> 0.1.5'
