@@ -1,18 +1,18 @@
 # EZ-WebView
 This is a WKWebView based web view framework which supports for swift UI. 
 
-<b>Installation</b>
+<b>Installation :</b>
 
 pod 'EZ-WebView'
 
-<b>Available versions are -> </b>
+<b>Available versions are : </b>
 
 pod 'EZ-WebView','~> 0.1.4'
 pod 'EZ-WebView','~> 0.1.5'
 pod 'EZ-WebView','~> 0.1.6'
 pod 'EZ-WebView','~> 0.1.7'
 
-Screenshots - >
+<b>Screenshots : </b>
 
 1. With feedback alert.
 
