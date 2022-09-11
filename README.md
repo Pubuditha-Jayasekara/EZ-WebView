@@ -27,3 +27,22 @@ Screenshots - >
 <img src="https://user-images.githubusercontent.com/35820857/189517900-30bc3f91-98e7-4ad0-a3d5-b1649cfc3b1f.PNG" width="200" height="400" />
   </div>
 </div>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
